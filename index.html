@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="./css/style.css" />
 
 </head>
-<body>
+<body class="d-flex flex-column h-100 background">
     <div class="container-fluid header-background">
-        <div class="row-12">
+        <div class="row">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light header">
+                <nav class="navbar navbar-expand-lg navbar-light header">
                     <div class="navbar-brand header-title">
                         <Text class="title">Shane Keney</Text>
                     </div>
@@ -26,9 +26,9 @@
                     </button>
                     <div class="collapse navbar-collapse push-right" id="navbarNavAltMarkup">
                       <div class="navbar-nav">
-                        <a class="nav-item nav-link active nav-tab" href="./index.html">About</a>
-                        <a class="nav-item nav-link nav-tab" href="./portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link nav-tab" href="./contact.html">Contact</a>
+                        <a class="nav-item nav-link active nav-tab px-3" href="./index.html">About</a>
+                        <a class="nav-item nav-link nav-tab px-3" href="./portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link nav-tab px-3" href="./contact.html">Contact</a>
                       </div>
                     </div>
                   </nav>
@@ -37,9 +37,51 @@
     </div>
 
 
-    <div class="container-fluid background">
-        <p>Test</p>
-    </div>
+    <main class="flex-shrink-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container bg-white my-4" id="about-me-container">
+                        <div class="row">
+                            <div class="col-md-12 py-3">
+                                <div id="about-me-title">
+                                    <h1 id="about-me">About Me</h1>
+                                </div>
+
+                                <img 
+                                    class="img-thumbnail float-left mr-4" 
+                                    height="170px" 
+                                    width="170px"
+                                    src="./assets/images/Profile-Image.png"
+                                    alt="Profile Image"
+                                />
+
+                                <p id="about-me-info">
+                                    Shane Keney was born February 20th, 1994 and raised in Suffield, CT.  
+                                    He graduated from Suffield High school in 2012 prepared to attend the University of 
+                                    Connecticut.  He later graduated from Uconn with a major in Computer Science 
+                                    and a minor in Mathematics.  He now lives in Enfield, CT with his wife Erica Keney and has 
+                                    one child named Emerson.  Together, Erica and Shane have two dogs: a Leonberger and Austrailian 
+                                    Shephard, and two cats.
+                                </p>
+            
+                                <br />
+            
+                                <p id="about-me-info">
+                                    He accepted a job out of college as a Software Developer for windows desktop  
+                                    deployment working specifically on calibration software for linear and angular displacement transducers.  
+                                    He later came accross an opprotunity to work as a Lead Mobile Developer for Spikeball Inc. where he has 
+                                    worked since June 2019.  
+                                    Shane enrolled in the Uconn Coding Bootcamp in November to further his current skillset and learn
+                                    additional skills that would aid him in Full Stack Web Development as it pertains to his work at Spikeball.  
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <!-- Sticky footer -->
     <div class="container-fluid">
