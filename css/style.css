@@ -1,0 +1,69 @@
+.background-image {
+    background-image: url('../images/herringbone.png');
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.header-background {
+    background-color: white;
+    border-width: 0 0 2px 0;
+    border-color: #cccccc;
+    border-style: solid;
+}
+
+.background {
+    background-color: red;
+    display: flex;
+    flex-grow: 1;
+}
+
+.header {
+    height: 75px;
+    padding: 0px;
+}
+
+.sticky-footer {
+    height: 75px;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.header-title {
+    background-color: #4aaaa5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 0 20px;
+}
+
+.nav-tab {
+    color: #777777;
+    padding-right: 50px;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    text-decoration: none;
+    border-right-color: #dddddd;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+}
+
+.title {
+    color: white;    
+    font-size: 1.3em;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+}
+
+.push-right {
+    justify-content: flex-end;
+}
+
+.copyright-text {
+    color: white;
+    font-size: 12px;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';;
+}
