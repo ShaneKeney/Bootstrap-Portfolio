@@ -26,8 +26,8 @@
 }
 
 .header {
-    height: 75px;
     padding: 0px;
+    height: 75px;
 }
 
 .sticky-footer {
@@ -116,4 +116,13 @@
     font-size: 25px;
     background-color: #4aaaa5;
     padding: 10px 0 10px 0;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    bottom: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+    .nav-tab {
+        border-style: none;
+        border-width: 0;
+    }
 }
