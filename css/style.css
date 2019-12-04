@@ -158,10 +158,6 @@
     color: white;
 }
 
-#footer-margin {
-    margin-top: 400px;
-}
-
 @media only screen and (max-width: 991px) {
     .nav-tab {
         border-style: none;
