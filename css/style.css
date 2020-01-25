@@ -2,6 +2,11 @@ body {
     height: 100vh;
 }
 
+.resumeText,
+.resumeText:hover {
+    color: white
+}
+
 .linkBttn, .linkedInBttn {
     background-color: #4aaaa5; 
     border: none; /* Remove borders */
