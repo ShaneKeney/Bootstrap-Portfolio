@@ -12,6 +12,8 @@
     <!-- Custom or override css -->
     <link rel="stylesheet" href="./css/style.css" />
 
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="d-flex flex-column background">
     <div class="container-fluid header-background">
@@ -43,18 +45,41 @@
                 <div class="col-md-12">
                     <div class="container bg-white my-4" id="about-me-container">
                         <div class="row">
-                            <div class="col-md-12 py-3">
+                            <div class="col-12 py-3" id="aboutMeContent">
                                 <div id="about-me-title">
                                     <h1 id="about-me">About Me</h1>
                                 </div>
 
-                                <img 
-                                    class="img-thumbnail float-left mr-4" 
-                                    height="170px" 
-                                    width="170px"
-                                    src="./assets/images/Profile-Image.png"
-                                    alt="Profile Image"
-                                />
+                                <div class="d-flex flex-shrink-1 flex-column justify-content-center align-items-center float-left mr-4 mb-2">
+                                    <img 
+                                        class="img-thumbnail" 
+                                        height="170px" 
+                                        width="170px"
+                                        src="./assets/images/Profile-Image.png"
+                                        alt="Profile Image"
+                                    />   
+
+                                    <div class="d-flex w-100 align-items-center justify-content-center" id="linkedinContainer">
+                                        <button 
+                                            class="linkBttn mr-2 ml-2 p-2 rounded-circle" 
+                                            data-toggle="tooltip" 
+                                            data-placement="bottom" 
+                                            title="GitHub Repo"
+                                            onclick="window.location.href = 'https://github.com/ShaneKeney';";
+                                        >
+                                            <i class="fa fa-github fa-2x"></i>
+                                        </button>
+                                        <button 
+                                            class="linkedInBttn p-2 rounded-circle mr-2 ml-2" 
+                                            data-toggle="tooltip" 
+                                            data-placement="bottom" 
+                                            title="LinkedIn Profile"
+                                            onclick="window.location.href = 'https://www.linkedin.com/in/shane-keney/';";
+                                        >
+                                            <i class="fa fa-linkedin fa-2x"></i>
+                                        </button>
+                                    </div>
+                                </div>
 
                                 <p id="about-me-info">
                                     Shane Keney was born February 20th, 1994 and raised in Suffield, CT.  
@@ -91,9 +116,10 @@
     </div>
 
     <!-- Linking Bootstrap jQuery, Popper.js, js plugins-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+    <script src="./scripts/index.js"></script>
 </body>
 </html>

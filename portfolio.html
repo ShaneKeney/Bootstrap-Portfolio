@@ -11,8 +11,12 @@
 
     <!-- Custom or override css -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font-imports.css" />
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="d-flex flex-column h-100 background">
+<body class="d-flex flex-column background">
     <div class="container-fluid header-background">
         <div class="row">
             <div class="container">
@@ -46,59 +50,133 @@
                                     <h1 id="about-me">Portfolio</h1>
                                 </div>
 
-                                <div class="d-flex position-relative justify-content-end align-items-center flex-column float-left mr-5 mb-5">
-                                    <img 
-                                        class="d-flex img-thumbnail" 
-                                        height="240px" 
-                                        width="240px"
-                                        src="./assets/images/Rock_Paper_Scissor.png"
-                                        alt="Rock, Paper, Scissor Image"
-                                    />
-                                    <h1 class="d-flex justify-content-center position-absolute img-title w-100">Rock Paper Scissors</h1>                                
+                                <!-- Yodrivia Project -->
+                                <div class="mb-2 p-2 projectContainer">
+                                    <div class="d-flex flex-column justify-content-center align-items-center float-left mr-4 mb-2" id="thumbnailContainer">
+                                        <div class="d-flex position-relative justify-content-end align-items-center flex-column mb-1">
+                                            <img 
+                                                class="d-flex img-thumbnail" 
+                                                height="240px" 
+                                                width="240px"
+                                                src="./assets/images/YodriviaScreenshot.png"
+                                                alt="Yodrivia"
+                                            />
+                                            <h1 class="d-flex justify-content-center position-absolute img-title w-100">Yodrivia</h1>                                
+                                        </div>
+
+                                        <div class="d-flex w-100 align-items-center" id="gitButtonContainer">
+                                            <button 
+                                                class="linkBttn mr-3 ml-2 p-2 rounded-circle" 
+                                                data-toggle="tooltip" 
+                                                data-placement="bottom" 
+                                                title="GitHub Repo"
+                                                onclick="window.location.href = 'https://github.com/ShaneKeney/Yodrivia';";
+                                            >
+                                                    <i class="fa fa-github fa-2x"></i>
+                                            </button>
+                                            <button 
+                                                class="linkBttn p-2 rounded-circle" 
+                                                data-toggle="tooltip" 
+                                                data-placement="bottom" 
+                                                title="Sample Website"
+                                                onclick="window.location.href = 'https://shanekeney.github.io/Yodrivia/';";
+                                            >
+                                                <i class="fa fa-window-maximize fa-2x"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="d-flex flex-grow-1 p-2 justify-content-center align-items-center"> -->
+                                        <p class="projectDesc text-wrap mb-0">
+                                            Ever get bored answering the same trivia questions during game night?  Well your in luck!  This website is built for the trivia enthusiasts at all levels.  Specify trivia category, difficulty and even add your own trivia questions to the mix!  
+                                            Want a little more difficulty and love Yoda speech?  Go ahead and Yodafy your questions!  Yes, it's now a verb.
+                                        </p>
+                                    <!-- </div> -->
                                 </div>
 
-                                <div class="d-flex position-relative justify-content-end align-items-center flex-column float-left mr-5 mb-5">
-                                    <img 
-                                        class="d-flex img-thumbnail" 
-                                        height="240px" 
-                                        width="240px"
-                                        src="./assets/images/hangman.png"
-                                        alt="Hangman Image"
-                                    />
-                                    <h1 class="d-flex justify-content-center position-absolute img-title w-100">Hangman</h1>                                
-                                </div>
+                                <!-- Weather Dashboard Project -->
+                                <div class="mb-2 p-2 projectContainer">
+                                    <div class="d-flex flex-column justify-content-center align-items-center float-left mr-4 mb-2" id="thumbnailContainer">
+                                        <div class="d-flex position-relative justify-content-end align-items-center flex-column mb-1">
+                                            <img 
+                                                class="d-flex img-thumbnail" 
+                                                height="240px" 
+                                                width="240px"
+                                                src="./assets/images/WeatherDash.png"
+                                                alt="WeatherDash"
+                                            />
+                                            <h1 class="d-flex justify-content-center position-absolute img-title w-100">Weather Dash</h1>                                
+                                        </div>
 
-                                <div class="d-flex position-relative justify-content-end align-items-center flex-column float-left mr-5 mb-5">
-                                    <img 
-                                        class="d-flex img-thumbnail" 
-                                        height="240px" 
-                                        width="240px"
-                                        src="./assets/images/rpg-image.png"
-                                        alt="Roll Playing Game Image"
-                                    />
-                                    <h1 class="d-flex justify-content-center position-absolute img-title w-100">RPG Game</h1>                                
-                                </div>
+                                        <div class="d-flex w-100 align-items-center" id="gitButtonContainer">
+                                            <button 
+                                                class="linkBttn mr-3 ml-2 p-2 rounded-circle" 
+                                                data-toggle="tooltip" 
+                                                data-placement="bottom" 
+                                                title="GitHub Repo"
+                                                onclick="window.location.href = 'https://github.com/ShaneKeney/Weather_Dashboard';";
+                                            >
+                                                    <i class="fa fa-github fa-2x"></i>
+                                            </button>
+                                            <button 
+                                                class="linkBttn p-2 rounded-circle" 
+                                                data-toggle="tooltip" 
+                                                data-placement="bottom" 
+                                                title="Sample Website"
+                                                onclick="window.location.href = 'https://shanekeney.github.io/Weather_Dashboard/';";
+                                            >
+                                                <i class="fa fa-window-maximize fa-2x"></i>
+                                            </button>
+                                        </div>
+                                    </div>
 
-                                <div class="d-flex position-relative justify-content-end align-items-center flex-column float-left mr-5 mb-5">
-                                    <img 
-                                        class="d-flex img-thumbnail" 
-                                        height="240px" 
-                                        width="240px"
-                                        src="./assets/images/tech-cover.png"
-                                        alt="Rutgers Info Widget Image"
-                                    />
-                                    <h1 class="d-flex justify-content-center position-absolute img-title w-100">Rutgers Info Widget</h1>                                
+                                    <p class="projectDesc text-wrap mb-0">
+                                        App created to function as a current day and five day weather forecast for user specified cities around the world.
+                                    </p>
                                 </div>
+                                
+                                <!-- Password Generator Assignment -->
+                                <div class="mb-2 p-2 projectContainer" id="passGenerator">
+                                    <div class="d-flex flex-column justify-content-center align-items-center float-left mr-4 mb-2" id="thumbnailContainer">
+                                        <div class="d-flex position-relative justify-content-end align-items-center flex-column mb-1">
+                                            <img 
+                                                class="d-flex img-thumbnail" 
+                                                height="240px" 
+                                                width="240px"
+                                                src="./assets/images/PassGenerator.png"
+                                                alt="PassGenerator"
+                                            />
+                                            <h1 class="d-flex justify-content-center position-absolute img-title w-100">Password Generator</h1>                                
+                                        </div>
 
-                                <div class="d-flex position-relative justify-content-end align-items-center flex-column float-left mr-5 mb-5">
-                                    <img 
-                                        class="d-flex img-thumbnail" 
-                                        height="240px" 
-                                        width="240px"
-                                        src="./assets/images/trivia-cover.png"
-                                        alt="Trivia Image"
-                                    />
-                                    <h1 class="d-flex justify-content-center position-absolute img-title w-100">Trivia Game</h1>                                
+                                        <div class="d-flex w-100 align-items-center" id="gitButtonContainer">
+                                            <button 
+                                                class="linkBttn mr-3 ml-2 p-2 rounded-circle" 
+                                                data-toggle="tooltip" 
+                                                data-placement="bottom" 
+                                                title="GitHub Repo"
+                                                onclick="window.location.href = 'https://github.com/ShaneKeney/Password_Generator';";
+                                            >
+                                                    <i class="fa fa-github fa-2x"></i>
+                                            </button>
+                                            <button 
+                                                class="linkBttn p-2 rounded-circle" 
+                                                data-toggle="tooltip" 
+                                                data-placement="bottom" 
+                                                title="Sample Website"
+                                                onclick="window.location.href = 'https://shanekeney.github.io/Password_Generator/';";
+                                            >
+                                                <i class="fa fa-window-maximize fa-2x"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="d-flex flex-grow-1 p-2 justify-content-center align-items-center"> -->
+                                        <p class="projectDesc text-wrap mb-0">
+                                            The perfect app for generating secure passwords.  The ability to specify criteria exactly that meets your needs to ensure
+                                            a secure and uncrackable password.
+                                        </p>
+                                    <!-- </div> -->
                                 </div>
                             </div>
                         </div>
@@ -116,8 +194,13 @@
     </div>
 
     <!-- Linking Bootstrap jQuery, Popper.js, js plugins-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Added link to the jQuery Library
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+    <script src="./scripts/portfolio.js"></script>
 </body>
 </html>
